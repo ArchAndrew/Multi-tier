@@ -14,6 +14,14 @@
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RTE53Domain.png" alt="image description" style="width:200px;">
 
 
-3. Click on register domain.
+3. Click on register domains.
    
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:500px;">
+
+4. Seearch for desired domain for availability and purchase it.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/SearchDomain.png" alt="image description" style="width:500px;">
+
+
+
+
