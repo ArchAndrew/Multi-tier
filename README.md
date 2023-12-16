@@ -28,4 +28,10 @@
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RequestCert.png" alt="image description" style="width:500px;">
 
+2. Now enter your domain name from step 1
+3. And choose certificate validatation via. Email (Though DNS validation is recommended I choose the email option being that it is faster).
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DomainName.png" style="width:500px;">
+
+
 
