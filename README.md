@@ -7,7 +7,13 @@
 - Visual Studio Code [VSC](https://code.visualstudio.com/) (Windows)
 
 ## Step 1: Go to Route 53 
-- Select registered domain.
+1. Enter Route 53 in search bar within AWS console.
+2. Select registered domains.
 
-![RTE53Domain](https://github.com/ArchAndrew/Multi-tier/blob/main/RTE53Domain.png)
 
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RTE53Domain.png" alt="image description" style="width:200px;">
+
+
+3. Click on register domain.
+   
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:500px;">
