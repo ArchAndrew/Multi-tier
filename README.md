@@ -22,6 +22,10 @@
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/SearchDomain.png" alt="image description" style="width:500px;">
 
+## Step 2: Go to AWS Certificate Manage
+
+1. 
+
 
 
 
