@@ -18,14 +18,14 @@
    
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:500px;">
 
-4. Seearch for desired domain for availability and purchase it.
+4. Search for desired domain for availability and purchase it.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/SearchDomain.png" alt="image description" style="width:500px;">
 
-## Step 2: Go to AWS Certificate Manage
+## Step 2: Go to AWS Certificate Manager
 
-1. 
+1. Click on request certificate
 
-
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RequestCert.png" alt="image description" style="width:500px;">
 
 
