@@ -1,5 +1,11 @@
 # Creating Three Tier Architecture
 
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ThreeTier.png" style="width:700px;">
+
+
+
+
+
 ## Prerequisites
 
 - An AWS account with access keys assigned to corresponding user.
