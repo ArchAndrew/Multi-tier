@@ -45,6 +45,7 @@ Note: Validation can take up to an hour.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ListCert.png" style="width:500px;">
 
+## Step 3 Open Visual Studio Code and import "Multi-Tier" folder
 
-
+1. Once files are open in VSC modify them as necessary. (Instructions are included within code.)
 
