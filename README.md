@@ -25,7 +25,7 @@
 
 3. Click on register domains.
    
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:500px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:250px;">
 
 
 4. Search for desired domain availability and purchase it.
@@ -101,7 +101,7 @@ terraform init
 ```
 *Notice our terraform init was successful*
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfinit.png" style="width:500px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfinit.png" style="width:250px;">
 
 
 2. Next we want to verify that our configuration is valid. Enter:
@@ -110,7 +110,7 @@ terraform validate
 ```
 *Notice this is also successful*
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfvalidate.png" style="width:500px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfvalidate.png" style="width:250px;">
 
 
 3. Now, we will plan to deploy our resources in AWS with this command:
