@@ -54,10 +54,13 @@ Note: Validation can take up to an hour.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/EC2Launch.png" style="width:500px;">
 
-3. Copy the AMI i.d from AWS and paste this into line 3 of the "launchtemplate.tf"
+3. Copy the AMI i.d from AWS and paste this into line 3 of the "launchtemplate.tf" within VSC.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/AMI.png" style="width:500px;">
 
+4. Go back to console and on the same instance set-up page scroll down and click "create new key pair" name it and download it to your local machine. This key will help us to connect to AWS through VSC, alongside the AWS access keys that are attached to your user which you should already have. More on access keys next.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/KeyPair.png" style="width:500px;">
 
    
 
