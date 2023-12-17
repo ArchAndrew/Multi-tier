@@ -187,9 +187,35 @@ terraform apply -auto-approve
 
 *This will take awhile. I recommend a well deserved coffee break!* 
 
+## Welcome Back! Your DB has been deployed
 
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DBcomplete.png" style="width:500px;">
 
+1. Check your resources. Search EC2 in the AWS console and notice the DB instances.
 
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DBinstance.png" style="width:500px;">
+
+2. Now search for RDS and click on database.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RDSdblist.png" style="width:500px;">
+
+*Notice your DB*
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RDSonAWS.png" style="width:500px;">
+
+## Step 7 Tear down
+
+1. Time to clean up. Lets run this command:
+```bash
+terraform destroy
+```
+
+*Note you can also run the following command as well in order to avoid terraform from questioning your action.*
+
+```bash
+terraform destroy -auto-approve
+```
+
+*Again, this will take awhile. Coffee, workout, study, or popcorn. Whatever floats your boat!*
 
 
 
