@@ -81,6 +81,28 @@ aws configure
  ```bash
 terraform init
 ```
+*Notice our terraform init was successful*
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfinit.png" style="width:500px;">
+
+2. Next we want to verify that our configuration is valid. Enter:
+```bash
+terraform validate
+```
+*Notice this is also successful*
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfvalidate.png" style="width:500px;">
+
+3. Now, we will plan to deploy our resources in AWS with this command:
+```bash
+terraform plan
+```
+*Note you may be prompted to enter your region of choice after entering this command otherwise you will get a count of the resources that you plan to deploy*
+
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfplan.png" style="width:500px;">
+
+
 
 
 
