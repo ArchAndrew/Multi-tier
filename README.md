@@ -226,7 +226,7 @@ terraform destroy -auto-approve
 - No worries. The RDS option group is used by final DB snapshot. Terraform doesn't know about this. The option group can be removed only when final snapshot is removed.
 - To do this we must go to the AWS console and delete the snapshot first.
 
-## Step 8 Goodbye Option Group 	:wave:
+## Step 8 Goodbye Option Group :wave:
 1. Go to RDS. Click snapshots=>actions=>delete snapshot.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DeleteSnapShot.png" style="width:500px;">
