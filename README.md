@@ -37,7 +37,7 @@
 2. Now enter your domain name from step 1.
 3. And choose certificate validatation via. Email (Though DNS validation is recommended I choose the email option being that it is faster).
 
-Note: Validation can take up to an hour.
+*Note: Validation can take up to an hour.*
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DomainName.png" style="width:500px;">
 
@@ -49,7 +49,8 @@ Note: Validation can take up to an hour.
 
 1. For now we need all .tf files except 12-RDSDB.tf. Once files are open in VSC modify them as necessary. (Instructions are included within code.)
 2. Type EC2 in the search bar of the AWS console, and click launch instance.
-   Note: we are not actually launching an instance we just need some variables from the console to enter into our "launchtemplate.tf"
+
+    *Note: we are not actually launching an instance we just need some variables from the console to enter into our "launchtemplate.tf"*
 
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/EC2Launch.png" style="width:500px;">
@@ -62,5 +63,9 @@ Note: Validation can take up to an hour.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/KeyPair.png" style="width:500px;">
 
-   
+## Step 4 Input your Access keys into VSC 
+1. We will enter our keys into the VSC via the terminal
+2. In terminal enter ```
+   aws configure
+   ``` 
 
