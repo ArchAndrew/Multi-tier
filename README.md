@@ -25,7 +25,7 @@
 
 3. Click on register domains.
    
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:250px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:500px;">
 
 
 4. Search for desired domain availability and purchase it.
@@ -101,7 +101,7 @@ terraform init
 ```
 *Notice our terraform init was successful*
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfinit.png" style="width:250px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfinit.png" style="width:500px;">
 
 
 2. Next we want to verify that our configuration is valid. Enter:
@@ -138,10 +138,10 @@ terraform apply -auto-approve
 
 5. Now, go to the AWS console to ensure that your resources have been populated. Enter EC2 in the search bar, and then enter VPC to check for resources
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesEC2.png" style="width:500px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesEC2.png" style="width:250px;">
 
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesVPC.png" style="width:500px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesVPC.png" style="width:250px;">
 
 
 
