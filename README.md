@@ -45,13 +45,19 @@ Note: Validation can take up to an hour.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ListCert.png" style="width:500px;">
 
-## Step 3 Open Visual Studio Code and import "Multi-Tier" folder
+## Step 3 Open Visual Studio Code and import .tf files 0-11 from "Multi-Tier" folder
 
-1. Once files are open in VSC modify them as necessary. (Instructions are included within code.)
+1. For now we need all .tf files except 12-RDSDB.tf. Once files are open in VSC modify them as necessary. (Instructions are included within code.)
 2. Type EC2 in the search bar of the AWS console, and click launch instance.
    Note: we are not actually launching an instance we just need some variables from the console to enter into our "launchtemplate.tf"
 
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/EC2Launch.png" style="width:500px;">
+
+3. Copy the AMI i.d from AWS and paste this into line 3 of the "launchtemplate.tf"
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/AMI.png" style="width:500px;">
+
+
    
 
