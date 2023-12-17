@@ -152,6 +152,23 @@ terraform apply -auto-approve
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Subnetids.png" style="width:500px;">
 
+2.Import the 12-RDSDB.tf into VSC and save.
+3.Then enter:
+```bash
+aws rds describe-db-engine-versions --engine mysql --query "DBEngineVersions[].EngineVersion"
+```
+*Note we need to ensure that our DB has one of the following versions in order to ensure we do not get any errors. If version is not current modify this section now. SEE line 7 of 12-RDSDB.tf module.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RDSDBVersion.png" style="width:500px;">
+
+4. Now we can enter:
+```bash
+terraform plan
+```
+
+
+
+
 
 
 
