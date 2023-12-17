@@ -161,10 +161,33 @@ aws rds describe-db-engine-versions --engine mysql --query "DBEngineVersions[].E
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RDSDBVersion.png" style="width:500px;">
 
-4. Now we can enter:
+4. Next, on line 35 paste your subnet ids. Then save.
+5. Now, lets update our terraform. In our terminal we can enter:
+```bash
+terraform init -upgrade
+```
+
+*Note: You will see this message*
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfinitupgrade.png" style="width:500px;">
+
+6. Then, enter
 ```bash
 terraform plan
 ```
+
+*Note: Resources to be added*
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/TfplanDB.png" style="width:500px;">
+
+7. Now, enter
+```bash
+terraform apply -auto-approve
+```
+
+*This will take awhile. I recommend a well deserved coffee break!* 
+
+
 
 
 
