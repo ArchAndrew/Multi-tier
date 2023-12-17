@@ -56,7 +56,7 @@
 
 
 
-## Step 3 Open Visual Studio Code and import .tf files 0-11 from "Multi-Tier" folder
+## Step 3 Open Visual Studio Code and import .tf files 0-11 from "Multi-Tier" repo
 
 
 1. For now we need all .tf files except 12-RDSDB.tf. Once files are open in VSC modify them as necessary. (Instructions are included within code.)
