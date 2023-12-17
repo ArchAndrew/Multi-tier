@@ -231,7 +231,7 @@ terraform destroy -auto-approve
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DeleteSnapShot.png" style="width:500px;">
 
-2. Now on the same RDS and click on option groups.
+2. Now in the same RDS section click on option groups.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Optmenu.png" style="width:400px;">
 
