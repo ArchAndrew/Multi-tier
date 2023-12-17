@@ -25,7 +25,7 @@
    
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Register%20Domain.png" alt="image description" style="width:500px;">
 
-4. Search for desired domain for availability and purchase it.
+4. Search for desired domain availability and purchase it.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/SearchDomain.png" alt="image description" style="width:500px;">
 
