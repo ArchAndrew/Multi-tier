@@ -65,7 +65,7 @@
     *Note: we are not actually launching an instance we just need some variables from the console to enter into our "launchtemplate.tf"*
 
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/EC2Launch.png" style="width:500px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/EC2Launch.png" style="width:400px;">
 
 
 3. Copy the AMI i.d from AWS and paste this into line 3 of the "launchtemplate.tf" within VSC.
@@ -110,7 +110,7 @@ terraform validate
 ```
 *Notice this is also successful*
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfvalidate.png" style="width:250px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfvalidate.png" style="width:500px;">
 
 
 3. Now, we will plan to deploy our resources in AWS with this command:
@@ -138,10 +138,10 @@ terraform apply -auto-approve
 
 5. Now, go to the AWS console to ensure that your resources have been populated. Enter EC2 in the search bar, and then enter VPC to check for resources
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesEC2.png" style="width:250px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesEC2.png" style="width:400px;">
 
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesVPC.png" style="width:250px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesVPC.png" style="width:400px;">
 
 
 
