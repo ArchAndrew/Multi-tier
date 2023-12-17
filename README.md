@@ -219,15 +219,63 @@ terraform destroy -auto-approve
 *Again, this will take awhile. Coffee, workout, study, or popcorn. Whatever floats your boat!*
 
 
-## Uh-oh looks like we have an error
+## Uh-oh looks like we have an error :open_mouth:
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DBOptionError.png" style="width:500px;">
 
 - No worries. The RDS option group is used by final DB snapshot. Terraform doesn't know about this. The option group can be removed only when final snapshot is removed.
 - To do this we must go to the AWS console and delete the snapshot first.
 
- ## Step 8 Goodbye Option Group
- 1. 
+## Step 8 Goodbye Option Group 	:wave:
+1. Go to RDS. Click snapshots=>actions=>delete snapshot.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DeleteSnapShot.png" style="width:500px;">
+
+2. Now on the same RDS and click on option groups.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Optmenu.png" style="width:400px;">
+
+3. Select your option group and delete. [Do NOT touch the default] :warning:
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DeleteOptionGroup.png" style="width:500px;">
+
+4. On the next screen click delete.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DeleteOptionGroup2.png" style="width:500px;">
+
+*You should see this message*
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DeleteSuccessful.png" style="width:500px;">
+
+*Only the default option group should exist*
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DefaultOptOnly.png" style="width:500px;">
+
+5. While we are in the console lets check if Terraform at least deleted our database. Yup its gone, this is good!
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DBDeleted.png" style="width:500px;">
+
+6. Lastly lets go back to VSC and run this command one more time to verify that all resources have been terminated.
+```bash
+terraform destroy -auto-approve
+```
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/DestroyComplete.png" style="width:500px;">
+
+## Congratulations! :sunglasses: Not a resource in site! :clap:
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
 
 
 
