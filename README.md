@@ -65,7 +65,13 @@
 
 ## Step 4 Input your Access keys into VSC 
 1. We will enter our keys into the VSC via the terminal
-2. In terminal enter ```
-   aws configure
-   ``` 
+2. In terminal enter
+ ```bash
+aws configure
+```
+3. You want to enter your AWS access keys and secrets access keys in the provided locations, as well as your desired region and output format which in this case is json.
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/awsconfigure.png" style="width:500px;">
+
+
 
