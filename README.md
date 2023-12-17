@@ -197,9 +197,10 @@ terraform apply -auto-approve
 
 2. Now search for RDS and click on database.
 
-<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RDSdblist.png" style="width:500px;">
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RDSdblist.png" style="width:250px;">
 
 *Notice your DB*
+
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/RDSonAWS.png" style="width:500px;">
 
 ## Step 7 Tear down
