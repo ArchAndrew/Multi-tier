@@ -97,11 +97,31 @@ terraform validate
 ```bash
 terraform plan
 ```
-*Note you may be prompted to enter your region of choice after entering this command otherwise you will get a count of the resources that you plan to deploy*
+*Note: you may be prompted to enter your region of choice after entering this command otherwise you will get a count of the resources that you plan to deploy*
 
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfplan.png" style="width:500px;">
 
+4. Next, we will apply our resources with this command:
+```bash
+terraform apply
+```
+*You will be asked to approve this action, so enter "yes". However if you want to skip this step, instead of entering the above command you can enter:*
+```bash
+terraform apply -auto-approve
+```
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfapply.png" style="width:500px;">
+
+*Once your deployment is complete you will get this message:*
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/Tfapplygood.png" style="width:500px;">
+
+5. Now, go to the AWS console to ensure that your resources have been populated. Enter EC2 in the search bar, and then enter VPC to check for resources
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesEC2.png" style="width:500px;">
+
+
+<img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/ResourcesVPC.png" style="width:500px;">
 
 
 
