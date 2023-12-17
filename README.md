@@ -13,6 +13,7 @@
 - Visual Studio Code [VSC](https://code.visualstudio.com/) (Windows)
 
 ## Step 1: Go to Route 53 
+
 1. Enter Route 53 in search bar within AWS console.
 2. Select registered domains.
 
@@ -64,14 +65,22 @@
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/KeyPair.png" style="width:500px;">
 
 ## Step 4 Input your Access keys into VSC 
+
 1. We will enter our keys into the VSC via the terminal
-2. In terminal enter
+2. In terminal enter:
  ```bash
 aws configure
 ```
-3. You want to enter your AWS access keys and secrets access keys in the provided locations, as well as your desired region and output format which in this case is json.
+3. You want to enter your AWS access keys and secrets access keys in the provided locations, as well as your desired region and output format which in this case is json. Now press enter one more time to take you back to the present working directory.
 
 <img src= "https://github.com/ArchAndrew/Multi-tier/blob/main/awsconfigure.png" style="width:500px;">
+
+## Step 5 Run Terraform script
+
+1. Now that we have VSC configured to AWS its time to initialize terraform. Run command:
+ ```bash
+terraform init
+```
 
 
 
